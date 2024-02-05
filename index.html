@@ -1,0 +1,2485 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>First dragon on solana</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="alternate" type="application/rss+xml" title="$DRAGON » Feed" href="index.php/feed/">
+    <link rel="alternate" type="application/rss+xml" title="$DRAGON » Comments Feed" href="index.php/comments/feed/">
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/pepeforktwo.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(i, n) {
+            var o, s, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                        e.fillText(n, 0, 0),
+                        new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === r[t]
+                })
+            }
+
+            function u(e, t, n) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
+                }
+                return !1
+            }
+
+            function f(e, t, n) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    o = (a.textBaseline = "top",
+                        a.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                        o[e] = t(a, e, n)
+                    }),
+                    o
+            }
+
+            function t(e) {
+                var t = i.createElement("script");
+                t.src = e,
+                    t.defer = !0,
+                    i.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
+                s = ["flag", "emoji"],
+                n.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                },
+                e = new Promise(function(e) {
+                    i.addEventListener("DOMContentLoaded", e, {
+                        once: !0
+                    })
+                }),
+                new Promise(function(t) {
+                    var n = function() {
+                        try {
+                            var e = JSON.parse(sessionStorage.getItem(o));
+                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
+                                return e.supportTests
+                        } catch (e) {}
+                        return null
+                    }();
+                    if (!n) {
+                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
+                            try {
+                                var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                                    r = new Blob([e], {
+                                        type: "text/javascript"
+                                    }),
+                                    a = new Worker(URL.createObjectURL(r), {
+                                        name: "wpTestEmojiSupports"
+                                    });
+                                return void(a.onmessage = function(e) {
+                                    c(n = e.data),
+                                        a.terminate(),
+                                        t(n)
+                                })
+                            } catch (e) {}
+                        c(n = f(s, u, p))
+                    }
+                    t(n)
+                }).then(function(e) {
+                    for (var t in e)
+                        n.supports[t] = e[t],
+                        n.supports.everything = n.supports.everything && n.supports[t],
+                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
+                        n.DOMReady = !1,
+                        n.readyCallback = function() {
+                            n.DOMReady = !0
+                        }
+                }).then(function() {
+                    return e
+                }).then(function() {
+                    var e;
+                    n.supports.everything || (n.readyCallback(),
+                        (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
+                            t(e.wpemoji)))
+                }))
+        }((window,
+            document), window._wpemojiSettings);
+    </script>
+    <style id="wp-emoji-styles-inline-css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id="classic-theme-styles-inline-css">
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id="global-styles-inline-css">
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #8d9ff7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel="stylesheet" id="mcwp-crypto-css-css" href="css/style.css" media="all">
+    <link rel="stylesheet" id="mcwp-crypto-datatable-css-css" href="css/datatable-style.css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="css/frontend-lite.min.css" media="all">
+    <link rel="stylesheet" id="swiper-css" href="css/swiper.min.css" media="all">
+    <link rel="stylesheet" id="elementor-post-5-css" href="css/post-5.css" media="all">
+    <link rel="stylesheet" id="elementor-global-css" href="css/global.css" media="all">
+    <link rel="stylesheet" id="elementor-post-6-css" href="css/post-6.css" media="all">
+    <link rel="stylesheet" id="hello-elementor-css" href="css/style.min.css" media="all">
+    <link rel="stylesheet" id="hello-elementor-theme-style-css" href="css/theme.min.css" media="all">
+    <link rel="stylesheet" id="hello-elementor-header-footer-css" href="css/header-footer.min.css" media="all">
+    <link rel="stylesheet" id="wpr-text-animations-css-css" href="css/text-animations.min.css" media="all">
+    <link rel="stylesheet" id="wpr-addons-css-css" href="css/frontend.min.css" media="all">
+    <link rel="stylesheet" id="font-awesome-5-all-css" href="css/all.min.css" media="all">
+    <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMoul%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRevalia%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMcLaren%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.4.3"
+        media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <script data-cfasync="false" src="js/jquery.min.js" id="jquery-core-js"></script>
+    <script data-cfasync="false" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="index.php/wp-json/">
+    <link rel="alternate" type="application/json" href="index.php/wp-json/wp/v2/pages/6">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd">
+    <meta name="generator" content="WordPress 6.4.3">
+    <link rel="canonical" href="">
+    <link rel="shortlink" href="">
+    <link rel="alternate" type="application/json+oembed" href="index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpepeforktwo.com%2F">
+    <link rel="alternate" type="text/xml+oembed" href="index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpepeforktwo.com%2F&amp;format=xml">
+    <meta name="generator" content="Elementor 3.19.0; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <link rel="icon" href="images/logo.png" sizes="32x32">
+    <link rel="icon" href="images/logo.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <meta name="msapplication-TileImage" content="wp-content/uploads/2024/01/logo.png">
+    <style id="wpr_lightbox_styles">
+        .lg-backdrop {
+            background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .lg-toolbar,
+        .lg-dropdown {
+            background-color: rgba(0, 0, 0, 0.8) !important;
+        }
+
+        .lg-dropdown:after {
+            border-bottom-color: rgba(0, 0, 0, 0.8) !important;
+        }
+
+        .lg-sub-html {
+            background-color: rgba(0, 0, 0, 0.8) !important;
+        }
+
+        .lg-thumb-outer,
+        .lg-progress-bar {
+            background-color: #444444 !important;
+        }
+
+        .lg-progress {
+            background-color: #a90707 !important;
+        }
+
+        .lg-icon {
+            color: #efefef !important;
+            font-size: 20px !important;
+        }
+
+        .lg-icon.lg-toogle-thumb {
+            font-size: 24px !important;
+        }
+
+        .lg-icon:hover,
+        .lg-dropdown-text:hover {
+            color: #ffffff !important;
+        }
+
+        .lg-sub-html,
+        .lg-dropdown-text {
+            color: #efefef !important;
+            font-size: 14px !important;
+        }
+
+        #lg-counter {
+            color: #efefef !important;
+            font-size: 14px !important;
+        }
+
+        .lg-prev,
+        .lg-next {
+            font-size: 35px !important;
+        }
+
+        /* Defaults */
+
+        .lg-icon {
+            background-color: transparent !important;
+        }
+
+        #lg-counter {
+            opacity: 0.9;
+        }
+
+        .lg-thumb-outer {
+            padding: 0 10px;
+        }
+
+        .lg-thumb-item {
+            border-radius: 0 !important;
+            border: none !important;
+            opacity: 0.5;
+        }
+
+        .lg-thumb-item.active {
+            opacity: 1;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <!-- <script src="https://pepeforktwo.com/wp-includes/js/wp-emoji-release.min.js?ver=6.4.3" defer=""></script> -->
+</head>
+
+<body class="home page-template page-template-elementor_canvas page page-id-6 wp-custom-logo elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-6">
+    <div data-elementor-type="wp-post" data-elementor-id="6" class="elementor elementor-6">
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-152f1248 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="152f1248" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5cb0552" data-id="5cb0552" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-ccda422 elementor-widget elementor-widget-ucaddon_blob_shapes" data-id="ccda422" data-element_type="widget" data-widget_type="ucaddon_blob_shapes.default">
+                            <div class="elementor-widget-container">
+                                <!-- start Blob Shapes -->
+                                <style type="text/css">
+                                    /* widget: Blob Shapes */
+
+                                    #uc_blob_shapes_elementor_ccda422 {
+                                        mix-blend-mode: overlay;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        background-position: center center;
+                                        opacity: 100%;
+                                    }
+
+                                    #uc_blob_shapes_elementor_ccda422_justification #uc_blob_shapes_elementor_ccda422_justification-inner {
+                                        position: absolute;
+                                        background-position: center center;
+                                        top: 0;
+                                        left: 0;
+                                        z-index: 1;
+                                        width: 100%;
+                                        height: 100%;
+                                        display: flex;
+                                    }
+
+                                    #uc_blob_shapes_elementor_ccda422_justification #uc_blob_shapes_elementor_ccda422_justification-inner .ue_blob_inside {
+                                        width: 100%;
+                                    }
+
+                                    #uc_blob_shapes_elementor_ccda422_justification #uc_blob_shapes_elementor_ccda422_justification-inner .blob {
+                                        background-position: center center;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        background-color: #000;
+                                    }
+
+                                    #uc_blob_shapes_elementor_ccda422_justification {
+                                        display: flex;
+                                        min-height: 1px;
+                                        position: relative;
+                                    }
+
+                                    #uc_blob_shapes_elementor_ccda422_justification .ue_blob_inside {
+                                        position: relative;
+                                        z-index: 2;
+                                        overflow: hidden;
+                                        width: 100%;
+                                        clip-path: animated;
+                                        -webkit-clip-path: animated;
+                                        background: linear-gradient(45deg, #a23eef 0%, 50%, #f8ddbd 100%);
+                                    }
+
+                                    #uc_blob_shapes_elementor_ccda422_size {
+                                        animation-name: animated;
+                                        animation-iteration-count: infinite;
+                                        animation-direction: alternate;
+                                        animation-timing-function: linear;
+                                        clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                        -webkit-clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                    }
+
+                                    @keyframes animated {
+                                        0% {
+                                            clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                            -webkit-clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                        }
+                                        50% {
+                                            clip-path: polygon(98.400% 19.800%, 99.300% 22.300%, 99.800% 24.900%, 100.000% 27.600%, 99.900% 30.400%, 99.600% 33.200%, 99.000% 36.100%, 98.200% 39.000%, 97.300% 42.000%, 96.200% 45.000%, 95.000% 48.000%, 93.700% 51.000%, 92.400% 54.000%, 91.100% 57.000%, 89.800% 60.000%, 88.500% 63.000%, 87.200% 65.900%, 86.000% 68.800%, 84.900% 71.600%, 83.900% 74.300%, 82.900% 77.000%, 81.900% 79.600%, 80.900% 82.100%, 80.000% 84.400%, 79.000% 86.600%, 78.000% 88.700%, 77.000% 90.600%, 75.900% 92.400%, 74.800% 94.000%, 73.600% 95.400%, 72.300% 96.600%, 70.900% 97.600%, 69.400% 98.400%, 67.800% 99.000%, 66.100% 99.400%, 64.200% 99.600%, 62.200% 99.600%, 60.100% 99.500%, 58.000% 99.200%, 55.800% 98.800%, 53.500% 98.200%, 51.100% 97.500%, 48.700% 96.700%, 46.200% 95.800%, 43.700% 94.900%, 41.100% 93.900%, 38.500% 92.900%, 35.900% 91.800%, 33.300% 90.700%, 30.700% 89.600%, 28.100% 88.500%, 25.500% 87.400%, 23.000% 86.300%, 20.500% 85.100%, 18.100% 83.900%, 15.800% 82.700%, 13.600% 81.400%, 11.500% 80.100%, 9.500% 78.700%, 7.700% 77.300%, 6.000% 75.800%, 4.500% 74.200%, 3.200% 72.500%, 2.100% 70.800%, 1.400% 69.400%, 0.700% 67.500%, 0.300% 65.500%, 0.100% 63.400%, 0.000% 61.200%, 0.200% 59.000%, 0.600% 56.700%, 1.100% 54.400%, 1.800% 52.000%, 2.700% 49.600%, 3.700% 47.100%, 4.900% 44.600%, 6.200% 42.000%, 7.600% 39.400%, 9.200% 36.800%, 10.900% 34.200%, 12.700% 31.600%, 14.600% 29.000%, 16.600% 26.400%, 18.700% 23.800%, 20.900% 21.300%, 23.100% 18.800%, 25.400% 16.400%, 27.800% 14.100%, 30.300% 11.900%, 32.900% 9.800%, 35.600% 7.900%, 38.400% 6.200%, 41.300% 4.600%, 44.300% 3.200%, 47.400% 2.100%, 50.600% 1.200%, 53.900% 0.600%, 57.200% 0.200%, 60.500% 0.000%, 63.900% 0.100%, 67.300% 0.500%, 70.700% 1.100%, 74.100% 1.900%, 77.400% 2.900%, 80.600% 4.100%, 83.600% 5.500%, 86.500% 7.100%, 89.200% 8.900%, 91.600% 10.800%, 93.800% 12.800%, 95.700% 15.000%, 97.300% 17.300%, 98.400% 19.800%);
+                                            -webkit-clip-path: polygon(98.400% 19.800%, 99.300% 22.300%, 99.800% 24.900%, 100.000% 27.600%, 99.900% 30.400%, 99.600% 33.200%, 99.000% 36.100%, 98.200% 39.000%, 97.300% 42.000%, 96.200% 45.000%, 95.000% 48.000%, 93.700% 51.000%, 92.400% 54.000%, 91.100% 57.000%, 89.800% 60.000%, 88.500% 63.000%, 87.200% 65.900%, 86.000% 68.800%, 84.900% 71.600%, 83.900% 74.300%, 82.900% 77.000%, 81.900% 79.600%, 80.900% 82.100%, 80.000% 84.400%, 79.000% 86.600%, 78.000% 88.700%, 77.000% 90.600%, 75.900% 92.400%, 74.800% 94.000%, 73.600% 95.400%, 72.300% 96.600%, 70.900% 97.600%, 69.400% 98.400%, 67.800% 99.000%, 66.100% 99.400%, 64.200% 99.600%, 62.200% 99.600%, 60.100% 99.500%, 58.000% 99.200%, 55.800% 98.800%, 53.500% 98.200%, 51.100% 97.500%, 48.700% 96.700%, 46.200% 95.800%, 43.700% 94.900%, 41.100% 93.900%, 38.500% 92.900%, 35.900% 91.800%, 33.300% 90.700%, 30.700% 89.600%, 28.100% 88.500%, 25.500% 87.400%, 23.000% 86.300%, 20.500% 85.100%, 18.100% 83.900%, 15.800% 82.700%, 13.600% 81.400%, 11.500% 80.100%, 9.500% 78.700%, 7.700% 77.300%, 6.000% 75.800%, 4.500% 74.200%, 3.200% 72.500%, 2.100% 70.800%, 1.400% 69.400%, 0.700% 67.500%, 0.300% 65.500%, 0.100% 63.400%, 0.000% 61.200%, 0.200% 59.000%, 0.600% 56.700%, 1.100% 54.400%, 1.800% 52.000%, 2.700% 49.600%, 3.700% 47.100%, 4.900% 44.600%, 6.200% 42.000%, 7.600% 39.400%, 9.200% 36.800%, 10.900% 34.200%, 12.700% 31.600%, 14.600% 29.000%, 16.600% 26.400%, 18.700% 23.800%, 20.900% 21.300%, 23.100% 18.800%, 25.400% 16.400%, 27.800% 14.100%, 30.300% 11.900%, 32.900% 9.800%, 35.600% 7.900%, 38.400% 6.200%, 41.300% 4.600%, 44.300% 3.200%, 47.400% 2.100%, 50.600% 1.200%, 53.900% 0.600%, 57.200% 0.200%, 60.500% 0.000%, 63.900% 0.100%, 67.300% 0.500%, 70.700% 1.100%, 74.100% 1.900%, 77.400% 2.900%, 80.600% 4.100%, 83.600% 5.500%, 86.500% 7.100%, 89.200% 8.900%, 91.600% 10.800%, 93.800% 12.800%, 95.700% 15.000%, 97.300% 17.300%, 98.400% 19.800%);
+                                        }
+                                        100% {
+                                            clip-path: polygon(96.500% 13.800%, 97.700% 15.900%, 98.600% 18.100%, 99.300% 20.500%, 99.700% 23.000%, 99.900% 25.600%, 99.900% 28.300%, 99.700% 31.100%, 99.500% 34.000%, 99.000% 36.900%, 98.400% 39.900%, 97.700% 42.900%, 96.900% 45.900%, 96.000% 49.000%, 95.100% 52.100%, 94.100% 55.200%, 93.100% 58.200%, 92.100% 61.200%, 91.100% 64.100%, 90.100% 67.000%, 89.100% 69.800%, 88.000% 72.600%, 86.900% 75.300%, 85.700% 77.900%, 84.500% 80.400%, 83.200% 82.800%, 81.800% 85.100%, 80.300% 87.200%, 78.700% 89.200%, 77.000% 91.000%, 75.200% 92.700%, 73.300% 94.200%, 71.200% 95.600%, 69.000% 96.800%, 66.700% 97.800%, 64.300% 98.600%, 61.800% 99.200%, 59.200% 99.700%, 56.500% 100.000%, 53.800% 100.100%, 51.000% 100.100%, 48.200% 99.900%, 45.400% 99.600%, 42.600% 99.100%, 39.800% 98.500%, 37.000% 97.700%, 34.300% 96.800%, 31.700% 95.700%, 29.100% 94.500%, 26.600% 93.100%, 24.200% 91.600%, 21.900% 90.000%, 19.700% 88.300%, 17.600% 86.500%, 15.600% 84.500%, 13.700% 82.400%, 11.900% 80.300%, 10.300% 78.100%, 8.800% 75.800%, 7.400% 73.400%, 6.100% 70.900%, 4.900% 68.400%, 3.800% 65.800%, 2.800% 63.100%, 2.000% 60.400%, 1.300% 57.600%, 0.700% 54.800%, 0.200% 52.000%, -0.100% 49.200%, -0.300% 46.400%, 0.000% 43.300%, 0.100% 40.500%, 0.300% 37.700%, 0.700% 35.000%, 1.200% 32.300%, 1.900% 29.700%, 2.800% 27.200%, 3.800% 24.700%, 5.000% 22.300%, 6.400% 20.000%, 8.000% 17.900%, 9.800% 15.900%, 11.700% 14.000%, 13.800% 12.200%, 16.100% 10.500%, 18.500% 9.000%, 21.000% 7.600%, 23.700% 6.300%, 26.500% 5.100%, 29.400% 4.100%, 32.400% 3.200%, 35.500% 2.400%, 38.700% 1.700%, 41.900% 1.100%, 45.200% 0.600%, 48.500% 0.300%, 51.900% 0.100%, 55.300% 0.000%, 58.700% 0.000%, 62.100% 0.100%, 65.500% 0.300%, 68.800% 0.700%, 72.100% 1.200%, 75.300% 1.800%, 78.400% 2.600%, 81.300% 3.500%, 84.100% 4.500%, 86.700% 5.700%, 89.100% 7.000%, 91.300% 8.500%, 93.300% 10.100%, 95.000% 11.900%, 96.500% 13.800%);
+                                            -webkit-clip-path: polygon(96.500% 13.800%, 97.700% 15.900%, 98.600% 18.100%, 99.300% 20.500%, 99.700% 23.000%, 99.900% 25.600%, 99.900% 28.300%, 99.700% 31.100%, 99.500% 34.000%, 99.000% 36.900%, 98.400% 39.900%, 97.700% 42.900%, 96.900% 45.900%, 96.000% 49.000%, 95.100% 52.100%, 94.100% 55.200%, 93.100% 58.200%, 92.100% 61.200%, 91.100% 64.100%, 90.100% 67.000%, 89.100% 69.800%, 88.000% 72.600%, 86.900% 75.300%, 85.700% 77.900%, 84.500% 80.400%, 83.200% 82.800%, 81.800% 85.100%, 80.300% 87.200%, 78.700% 89.200%, 77.000% 91.000%, 75.200% 92.700%, 73.300% 94.200%, 71.200% 95.600%, 69.000% 96.800%, 66.700% 97.800%, 64.300% 98.600%, 61.800% 99.200%, 59.200% 99.700%, 56.500% 100.000%, 53.800% 100.100%, 51.000% 100.100%, 48.200% 99.900%, 45.400% 99.600%, 42.600% 99.100%, 39.800% 98.500%, 37.000% 97.700%, 34.300% 96.800%, 31.700% 95.700%, 29.100% 94.500%, 26.600% 93.100%, 24.200% 91.600%, 21.900% 90.000%, 19.700% 88.300%, 17.600% 86.500%, 15.600% 84.500%, 13.700% 82.400%, 11.900% 80.300%, 10.300% 78.100%, 8.800% 75.800%, 7.400% 73.400%, 6.100% 70.900%, 4.900% 68.400%, 3.800% 65.800%, 2.800% 63.100%, 2.000% 60.400%, 1.300% 57.600%, 0.700% 54.800%, 0.200% 52.000%, -0.100% 49.200%, -0.300% 46.400%, 0.000% 43.300%, 0.100% 40.500%, 0.300% 37.700%, 0.700% 35.000%, 1.200% 32.300%, 1.900% 29.700%, 2.800% 27.200%, 3.800% 24.700%, 5.000% 22.300%, 6.400% 20.000%, 8.000% 17.900%, 9.800% 15.900%, 11.700% 14.000%, 13.800% 12.200%, 16.100% 10.500%, 18.500% 9.000%, 21.000% 7.600%, 23.700% 6.300%, 26.500% 5.100%, 29.400% 4.100%, 32.400% 3.200%, 35.500% 2.400%, 38.700% 1.700%, 41.900% 1.100%, 45.200% 0.600%, 48.500% 0.300%, 51.900% 0.100%, 55.300% 0.000%, 58.700% 0.000%, 62.100% 0.100%, 65.500% 0.300%, 68.800% 0.700%, 72.100% 1.200%, 75.300% 1.800%, 78.400% 2.600%, 81.300% 3.500%, 84.100% 4.500%, 86.700% 5.700%, 89.100% 7.000%, 91.300% 8.500%, 93.300% 10.100%, 95.000% 11.900%, 96.500% 13.800%);
+                                        }
+                                    }
+
+                                    #uc_blob_shapes_elementor_ccda422 {
+                                        aspect-ratio: 1 / 1;
+                                        width: 100%;
+                                    }
+
+                                    .ue-blob-text-holder {
+                                        position: absolute;
+                                        top: 0px;
+                                        left: 0px;
+                                        right: 0px;
+                                        bottom: 0px;
+                                        width: 100%;
+                                        height: 100%;
+                                        z-index: 2;
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                    }
+
+                                    .ue_blob_inside {
+                                        position: relative;
+                                    }
+                                </style>
+                                <div id="uc_blob_shapes_elementor_ccda422_justification" class="ue-blob-wrapper">
+                                    <div id="uc_blob_shapes_elementor_ccda422_size" class="ue_blob_inside">
+                                        <div id="uc_blob_shapes_elementor_ccda422" style="background-image:url(images/logo.png)" class="blob"></div>
+                                        <div class="ue-blob-text-holder"></div>
+                                    </div>
+                                </div>
+                                <!-- end Blob Shapes -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-54e066ad" data-id="54e066ad" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-6c788106 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button" data-id="6c788106" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <div class="wpr-button wpr-button-effect elementor-animation-pulse-grow" data-text="Go">
+                                        <span class="wpr-button-content">
+                                                <span class="wpr-button-text"><a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=3o48KQUim282N9LWXcTovFox1AH42sX4GCV1rSLRknvs&fixed=in"> Buy $DRAGON </a></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-77d20012" data-id="77d20012" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-66b8498 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-ucaddon_fullscreen_navigation_menu" data-id="66b8498" data-element_type="widget" data-widget_type="ucaddon_fullscreen_navigation_menu.default">
+                            <div class="elementor-widget-container">
+                                <!-- start Fullscreen Menu -->
+                                <link id="font-awesome-css" href="wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome5/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+                                <link id="font-awesome-4-shim-css" href="wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome5/css/fontawesome-v4-shims.css" type="text/css" rel="stylesheet">
+                                <style type="text/css">
+                                    /* widget: Fullscreen Menu */
+
+                                    .elementor-sticky {
+                                        overflow: visible !important;
+                                    }
+
+                                    body.menu-opened,
+                                    html.menu-opened {
+                                        overflow: hidden;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 * {
+                                        box-sizing: border-box;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 a,
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 a:visited,
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 a:hover,
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 a:active {
+                                        text-decoration: none;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue-input-wrapper {
+                                        position: relative;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue-input-wrapper-align {
+                                        display: flex;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger * {
+                                        transition: all 200ms;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger_custom_open svg {
+                                        height: 1em;
+                                        width: 1em;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger_custom_close svg {
+                                        height: 1em;
+                                        width: 1em;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 {
+                                        position: relative;
+                                        z-index: 99998;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .checkbox-toggle {
+                                        position: absolute;
+                                        z-index: 100000000;
+                                        cursor: pointer;
+                                        width: 60px;
+                                        height: 60px;
+                                        opacity: 0;
+                                        top: 0px;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .checkbox-toggle:checked+.ue_hamburger>div:after {
+                                        opacity: 0;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498.menu-opened .ue_menu {
+                                        pointer-events: auto;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498.menu-opened .ue_menu>div.ue_inner_menu {
+                                        visibility: visible;
+                                        -webkit-transition-duration: 0.75s;
+                                        transition-duration: 0.75s;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498.menu-opened .ue_menu>div.ue_inner_menu>div>div {
+                                        opacity: 1;
+                                        transition: opacity 0.4s ease 0.4s;
+                                    }
+
+                                    /* start open transition animations */
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu .ue_inner_menu {
+                                        transform: scale(0);
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498.menu-opened .ue_menu>div.ue_inner_menu {
+                                        -webkit-transform: scale(1);
+                                        transform: scale(1);
+                                        -webkit-transition-duration: 0.75s;
+                                        transition-duration: 0.75s;
+                                    }
+
+                                    /* end open transition animations */
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger {
+                                        top: 0;
+                                        cursor: pointer;
+                                        transition: 0.4s;
+                                        backface-visibility: hidden;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        position: absolute;
+                                        z-index: 99999999;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .checkbox-toggle:checked+.ue_hamburger>div {
+                                        transform: rotate(135deg);
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .checkbox-toggle:checked+.ue_hamburger>div:before,
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .checkbox-toggle:checked+.ue_hamburger>div:after {
+                                        top: 0;
+                                        -webkit-transform: rotate(90deg);
+                                        transform: rotate(90deg);
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .checkbox-toggle:checked:hover+.ue_hamburger>div {
+                                        transform: rotate(225deg);
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger>div {
+                                        position: relative;
+                                        -webkit-box-flex: 0;
+                                        flex: none;
+                                        width: 100%;
+                                        height: 2px;
+                                        transition: all 0.4s ease;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        background-color: #ffffff;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .checkbox-toggle:checked+.ue_hamburger>div {
+                                        color: #ffffff;
+                                        background-color: ;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 input:hover+.ue_hamburger>div {
+                                        background-color: #ffffff;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger>div:before,
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger>div:after {
+                                        content: '';
+                                        position: absolute;
+                                        z-index: 1;
+                                        top: -10px;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 2px;
+                                        background: inherit;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_hamburger>div:after {
+                                        top: 10px;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu {
+                                        position: fixed;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        pointer-events: none;
+                                        visibility: hidden;
+                                        backface-visibility: hidden;
+                                        outline: none;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                    }
+
+                                    /* start protection from doubled fixed section in elementor */
+
+                                    .elementor-sticky:not(.elementor-sticky+.elementor-sticky) #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu {
+                                        opacity: 0;
+                                        pointer-events: none;
+                                    }
+
+                                    .elementor-sticky--active #uc_fullscreen_navigation_menu_elementor_66b8498.menu-opened .ue_menu {
+                                        opacity: 1;
+                                        pointer-events: all;
+                                    }
+
+                                    /* end protection from doubled fixed section in elementor */
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu .ue_inner_menu {
+                                        color: #fff;
+                                        transition: all 0.4s ease;
+                                        height: 100vh;
+                                        overflow-y: auto;
+                                        overflow-x: hidden;
+                                        display: flex;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_inner_menu-box {
+                                        margin-top: auto;
+                                        margin-bottom: auto;
+                                        width: 100vw;
+                                        flex: none;
+                                        backface-visibility: hidden;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu>div>div>div {
+                                        max-width: 90vw;
+                                        width: 100%;
+                                        opacity: 0;
+                                        -webkit-transition: opacity 0.4s ease;
+                                        transition: opacity 0.4s ease;
+                                        overflow-y: auto;
+                                        flex: none;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 ul:not(#uc_fullscreen_navigation_menu_elementor_66b8498 section ul) {
+                                        list-style: none;
+                                        margin: 0;
+                                        display: block;
+                                        padding: 0px;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu div div ul li {
+                                        padding: 0;
+                                        display: block;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu div div ul li a {
+                                        position: relative;
+                                        display: inline-flex;
+                                        align-items: center;
+                                        cursor: pointer;
+                                        transition: color 0.4s ease;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu div div ul li a:hover {}
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu div div ul li a:hover:after {
+                                        width: 100%;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu div div ul li a:after {
+                                        content: '';
+                                        position: absolute;
+                                        z-index: 1;
+                                        bottom: 0;
+                                        left: 0;
+                                        width: 0;
+                                        height: 2px;
+                                        transition: width 0.4s ease;
+                                    }
+
+                                    .ue_menu_wrapper {
+                                        position: relative;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu-social-icons a {
+                                        display: inline-block;
+                                        line-height: 1em;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .ue_menu-social-icons a svg {
+                                        height: 1em;
+                                        width: 1em;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .sub-menu {
+                                        transition: 0.5s;
+                                        overflow: hidden;
+                                        height: auto;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .collapsed i::before,
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .expanded i::before {
+                                        font-weight: 900;
+                                        font-size: 14px;
+                                        line-height: 1em;
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .uc-menu-item-pointer {
+                                        position: absolute;
+                                        right: -15px;
+                                        transform: translate(14px, 0);
+                                    }
+
+                                    #uc_fullscreen_navigation_menu_elementor_66b8498 .uc-menu-item-pointer svg {
+                                        width: 14px;
+                                        height: 14px;
+                                    }
+                                </style>
+                                <div class="outer-menu" id="uc_fullscreen_navigation_menu_elementor_66b8498">
+                                    <div class="ue_menu_wrapper">
+                                        <div class="ue-input-wrapper-align">
+                                            <div class="ue-input-wrapper">
+                                                <input id="uc_fullscreen_navigation_menu_elementor_66b8498_input" name="fullscreen_menu_input" class="checkbox-toggle" type="checkbox">
+                                                <div class="ue_hamburger">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ue_menu">
+                                            <div class="ue_inner_menu" data-closeothers="no" data-clickable="false" data-icon-position="end" data-icon-source="" data-expand="">
+                                                <div class="ue_inner_menu_expand_icon" style="display: none">
+                                                    <i class="fas fa-arrow-down"></i>
+                                                </div>
+                                                <div class="ue_inner_menu_collapse_icon" style="display: none">
+                                                    <i class="fas fa-arrow-up"></i>
+                                                </div>
+                                                <div class="ue_inner_menu-box">
+                                                    <div></div>
+                                                    <div>
+                                                        <ul id="menu-pork2-0-menus" class="uc-list-menu">
+                                                            <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-49">
+                                                                <a href="" aria-current="page">Home</a>
+                                                            </li>
+                                                            <li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50">
+                                                                <a href="#tokenomics">Tokenomics</a>
+                                                            </li>
+                                                            <li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51">
+                                                                <a href="#community">Community</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end Fullscreen Menu -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-57237b1 elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="57237b1" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2d3fe69d" data-id="2d3fe69d" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-1f1ec80 elementor-widget elementor-widget-ucaddon_blob_shapes" data-id="1f1ec80" data-element_type="widget" data-widget_type="ucaddon_blob_shapes.default">
+                            <div class="elementor-widget-container">
+                                <!-- start Blob Shapes -->
+                                <style type="text/css">
+                                    /* widget: Blob Shapes */
+
+                                    #uc_blob_shapes_elementor_1f1ec80 {
+                                        mix-blend-mode: overlay;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        background-position: center center;
+                                        opacity: 100%;
+                                    }
+
+                                    #uc_blob_shapes_elementor_1f1ec80_justification #uc_blob_shapes_elementor_1f1ec80_justification-inner {
+                                        position: absolute;
+                                        background-position: center center;
+                                        top: 0;
+                                        left: 0;
+                                        z-index: 1;
+                                        width: 100%;
+                                        height: 100%;
+                                        display: flex;
+                                    }
+
+                                    #uc_blob_shapes_elementor_1f1ec80_justification #uc_blob_shapes_elementor_1f1ec80_justification-inner .ue_blob_inside {
+                                        width: 100%;
+                                    }
+
+                                    #uc_blob_shapes_elementor_1f1ec80_justification #uc_blob_shapes_elementor_1f1ec80_justification-inner .blob {
+                                        background-position: center center;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        background-color: #000;
+                                    }
+
+                                    #uc_blob_shapes_elementor_1f1ec80_justification {
+                                        display: flex;
+                                        min-height: 1px;
+                                        position: relative;
+                                    }
+
+                                    #uc_blob_shapes_elementor_1f1ec80_justification .ue_blob_inside {
+                                        position: relative;
+                                        z-index: 2;
+                                        overflow: hidden;
+                                        width: 100%;
+                                        clip-path: animated;
+                                        -webkit-clip-path: animated;
+                                        background: linear-gradient(45deg, #a23eef 0%, 50%, #f8ddbd 100%);
+                                    }
+
+                                    #uc_blob_shapes_elementor_1f1ec80_size {
+                                        animation-name: animated;
+                                        animation-iteration-count: infinite;
+                                        animation-direction: alternate;
+                                        animation-timing-function: linear;
+                                        clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                        -webkit-clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                    }
+
+                                    @keyframes animated {
+                                        0% {
+                                            clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                            -webkit-clip-path: polygon(83.200% 25.800%, 85.100% 28.100%, 86.900% 30.400%, 88.600% 32.700%, 90.200% 35.000%, 91.800% 37.300%, 93.200% 39.600%, 94.500% 41.900%, 95.800% 44.100%, 96.900% 46.400%, 97.800% 48.700%, 98.600% 51.000%, 99.300% 53.300%, 99.800% 55.700%, 100.000% 58.100%, 100.100% 60.500%, 100.000% 63.000%, 99.700% 65.400%, 99.200% 67.800%, 98.500% 70.200%, 97.600% 72.600%, 96.500% 75.000%, 95.200% 77.400%, 93.700% 79.700%, 92.100% 81.900%, 90.300% 84.000%, 88.300% 86.100%, 86.200% 88.100%, 84.000% 89.900%, 81.600% 91.600%, 79.100% 93.200%, 76.500% 94.600%, 73.800% 95.800%, 71.000% 96.900%, 68.000% 97.900%, 65.000% 98.600%, 61.900% 99.200%, 58.800% 99.600%, 55.700% 99.800%, 52.600% 99.900%, 49.500% 99.800%, 46.400% 99.600%, 43.400% 99.200%, 40.400% 98.600%, 37.500% 97.900%, 34.700% 97.000%, 32.000% 96.000%, 29.400% 94.800%, 27.000% 93.500%, 24.700% 92.000%, 22.300% 90.500%, 20.400% 88.800%, 18.600% 87.000%, 16.900% 85.100%, 15.400% 83.000%, 14.000% 80.800%, 12.600% 78.600%, 11.400% 76.300%, 10.200% 74.000%, 8.900% 71.300%, 8.000% 68.800%, 7.100% 66.300%, 6.200% 63.800%, 5.400% 61.200%, 4.600% 58.600%, 3.800% 55.900%, 3.100% 53.200%, 2.400% 50.500%, 1.700% 47.800%, 1.100% 45.200%, 0.700% 42.500%, 0.400% 39.900%, 0.200% 37.300%, 0.000% 34.700%, 0.100% 32.200%, 0.300% 29.700%, 0.700% 27.300%, 1.300% 24.900%, 2.100% 22.600%, 3.100% 20.300%, 4.300% 18.100%, 5.800% 16.000%, 7.500% 14.000%, 9.400% 12.100%, 11.500% 10.300%, 13.800% 8.600%, 16.200% 7.000%, 18.800% 5.600%, 21.500% 4.300%, 24.300% 3.100%, 27.200% 2.200%, 30.100% 1.400%, 33.100% 0.800%, 36.000% 0.400%, 38.900% 0.200%, 41.800% 0.200%, 44.600% 0.400%, 47.400% 0.800%, 50.200% 1.500%, 52.900% 2.400%, 55.500% 3.400%, 58.100% 4.600%, 60.600% 6.000%, 63.100% 7.600%, 65.500% 9.200%, 67.800% 11.000%, 70.100% 12.900%, 72.300% 14.900%, 74.500% 17.000%, 76.600% 19.200%, 78.600% 21.400%, 80.700% 23.600%, 83.200% 25.800%);
+                                        }
+                                        50% {
+                                            clip-path: polygon(98.400% 19.800%, 99.300% 22.300%, 99.800% 24.900%, 100.000% 27.600%, 99.900% 30.400%, 99.600% 33.200%, 99.000% 36.100%, 98.200% 39.000%, 97.300% 42.000%, 96.200% 45.000%, 95.000% 48.000%, 93.700% 51.000%, 92.400% 54.000%, 91.100% 57.000%, 89.800% 60.000%, 88.500% 63.000%, 87.200% 65.900%, 86.000% 68.800%, 84.900% 71.600%, 83.900% 74.300%, 82.900% 77.000%, 81.900% 79.600%, 80.900% 82.100%, 80.000% 84.400%, 79.000% 86.600%, 78.000% 88.700%, 77.000% 90.600%, 75.900% 92.400%, 74.800% 94.000%, 73.600% 95.400%, 72.300% 96.600%, 70.900% 97.600%, 69.400% 98.400%, 67.800% 99.000%, 66.100% 99.400%, 64.200% 99.600%, 62.200% 99.600%, 60.100% 99.500%, 58.000% 99.200%, 55.800% 98.800%, 53.500% 98.200%, 51.100% 97.500%, 48.700% 96.700%, 46.200% 95.800%, 43.700% 94.900%, 41.100% 93.900%, 38.500% 92.900%, 35.900% 91.800%, 33.300% 90.700%, 30.700% 89.600%, 28.100% 88.500%, 25.500% 87.400%, 23.000% 86.300%, 20.500% 85.100%, 18.100% 83.900%, 15.800% 82.700%, 13.600% 81.400%, 11.500% 80.100%, 9.500% 78.700%, 7.700% 77.300%, 6.000% 75.800%, 4.500% 74.200%, 3.200% 72.500%, 2.100% 70.800%, 1.400% 69.400%, 0.700% 67.500%, 0.300% 65.500%, 0.100% 63.400%, 0.000% 61.200%, 0.200% 59.000%, 0.600% 56.700%, 1.100% 54.400%, 1.800% 52.000%, 2.700% 49.600%, 3.700% 47.100%, 4.900% 44.600%, 6.200% 42.000%, 7.600% 39.400%, 9.200% 36.800%, 10.900% 34.200%, 12.700% 31.600%, 14.600% 29.000%, 16.600% 26.400%, 18.700% 23.800%, 20.900% 21.300%, 23.100% 18.800%, 25.400% 16.400%, 27.800% 14.100%, 30.300% 11.900%, 32.900% 9.800%, 35.600% 7.900%, 38.400% 6.200%, 41.300% 4.600%, 44.300% 3.200%, 47.400% 2.100%, 50.600% 1.200%, 53.900% 0.600%, 57.200% 0.200%, 60.500% 0.000%, 63.900% 0.100%, 67.300% 0.500%, 70.700% 1.100%, 74.100% 1.900%, 77.400% 2.900%, 80.600% 4.100%, 83.600% 5.500%, 86.500% 7.100%, 89.200% 8.900%, 91.600% 10.800%, 93.800% 12.800%, 95.700% 15.000%, 97.300% 17.300%, 98.400% 19.800%);
+                                            -webkit-clip-path: polygon(98.400% 19.800%, 99.300% 22.300%, 99.800% 24.900%, 100.000% 27.600%, 99.900% 30.400%, 99.600% 33.200%, 99.000% 36.100%, 98.200% 39.000%, 97.300% 42.000%, 96.200% 45.000%, 95.000% 48.000%, 93.700% 51.000%, 92.400% 54.000%, 91.100% 57.000%, 89.800% 60.000%, 88.500% 63.000%, 87.200% 65.900%, 86.000% 68.800%, 84.900% 71.600%, 83.900% 74.300%, 82.900% 77.000%, 81.900% 79.600%, 80.900% 82.100%, 80.000% 84.400%, 79.000% 86.600%, 78.000% 88.700%, 77.000% 90.600%, 75.900% 92.400%, 74.800% 94.000%, 73.600% 95.400%, 72.300% 96.600%, 70.900% 97.600%, 69.400% 98.400%, 67.800% 99.000%, 66.100% 99.400%, 64.200% 99.600%, 62.200% 99.600%, 60.100% 99.500%, 58.000% 99.200%, 55.800% 98.800%, 53.500% 98.200%, 51.100% 97.500%, 48.700% 96.700%, 46.200% 95.800%, 43.700% 94.900%, 41.100% 93.900%, 38.500% 92.900%, 35.900% 91.800%, 33.300% 90.700%, 30.700% 89.600%, 28.100% 88.500%, 25.500% 87.400%, 23.000% 86.300%, 20.500% 85.100%, 18.100% 83.900%, 15.800% 82.700%, 13.600% 81.400%, 11.500% 80.100%, 9.500% 78.700%, 7.700% 77.300%, 6.000% 75.800%, 4.500% 74.200%, 3.200% 72.500%, 2.100% 70.800%, 1.400% 69.400%, 0.700% 67.500%, 0.300% 65.500%, 0.100% 63.400%, 0.000% 61.200%, 0.200% 59.000%, 0.600% 56.700%, 1.100% 54.400%, 1.800% 52.000%, 2.700% 49.600%, 3.700% 47.100%, 4.900% 44.600%, 6.200% 42.000%, 7.600% 39.400%, 9.200% 36.800%, 10.900% 34.200%, 12.700% 31.600%, 14.600% 29.000%, 16.600% 26.400%, 18.700% 23.800%, 20.900% 21.300%, 23.100% 18.800%, 25.400% 16.400%, 27.800% 14.100%, 30.300% 11.900%, 32.900% 9.800%, 35.600% 7.900%, 38.400% 6.200%, 41.300% 4.600%, 44.300% 3.200%, 47.400% 2.100%, 50.600% 1.200%, 53.900% 0.600%, 57.200% 0.200%, 60.500% 0.000%, 63.900% 0.100%, 67.300% 0.500%, 70.700% 1.100%, 74.100% 1.900%, 77.400% 2.900%, 80.600% 4.100%, 83.600% 5.500%, 86.500% 7.100%, 89.200% 8.900%, 91.600% 10.800%, 93.800% 12.800%, 95.700% 15.000%, 97.300% 17.300%, 98.400% 19.800%);
+                                        }
+                                        100% {
+                                            clip-path: polygon(96.500% 13.800%, 97.700% 15.900%, 98.600% 18.100%, 99.300% 20.500%, 99.700% 23.000%, 99.900% 25.600%, 99.900% 28.300%, 99.700% 31.100%, 99.500% 34.000%, 99.000% 36.900%, 98.400% 39.900%, 97.700% 42.900%, 96.900% 45.900%, 96.000% 49.000%, 95.100% 52.100%, 94.100% 55.200%, 93.100% 58.200%, 92.100% 61.200%, 91.100% 64.100%, 90.100% 67.000%, 89.100% 69.800%, 88.000% 72.600%, 86.900% 75.300%, 85.700% 77.900%, 84.500% 80.400%, 83.200% 82.800%, 81.800% 85.100%, 80.300% 87.200%, 78.700% 89.200%, 77.000% 91.000%, 75.200% 92.700%, 73.300% 94.200%, 71.200% 95.600%, 69.000% 96.800%, 66.700% 97.800%, 64.300% 98.600%, 61.800% 99.200%, 59.200% 99.700%, 56.500% 100.000%, 53.800% 100.100%, 51.000% 100.100%, 48.200% 99.900%, 45.400% 99.600%, 42.600% 99.100%, 39.800% 98.500%, 37.000% 97.700%, 34.300% 96.800%, 31.700% 95.700%, 29.100% 94.500%, 26.600% 93.100%, 24.200% 91.600%, 21.900% 90.000%, 19.700% 88.300%, 17.600% 86.500%, 15.600% 84.500%, 13.700% 82.400%, 11.900% 80.300%, 10.300% 78.100%, 8.800% 75.800%, 7.400% 73.400%, 6.100% 70.900%, 4.900% 68.400%, 3.800% 65.800%, 2.800% 63.100%, 2.000% 60.400%, 1.300% 57.600%, 0.700% 54.800%, 0.200% 52.000%, -0.100% 49.200%, -0.300% 46.400%, 0.000% 43.300%, 0.100% 40.500%, 0.300% 37.700%, 0.700% 35.000%, 1.200% 32.300%, 1.900% 29.700%, 2.800% 27.200%, 3.800% 24.700%, 5.000% 22.300%, 6.400% 20.000%, 8.000% 17.900%, 9.800% 15.900%, 11.700% 14.000%, 13.800% 12.200%, 16.100% 10.500%, 18.500% 9.000%, 21.000% 7.600%, 23.700% 6.300%, 26.500% 5.100%, 29.400% 4.100%, 32.400% 3.200%, 35.500% 2.400%, 38.700% 1.700%, 41.900% 1.100%, 45.200% 0.600%, 48.500% 0.300%, 51.900% 0.100%, 55.300% 0.000%, 58.700% 0.000%, 62.100% 0.100%, 65.500% 0.300%, 68.800% 0.700%, 72.100% 1.200%, 75.300% 1.800%, 78.400% 2.600%, 81.300% 3.500%, 84.100% 4.500%, 86.700% 5.700%, 89.100% 7.000%, 91.300% 8.500%, 93.300% 10.100%, 95.000% 11.900%, 96.500% 13.800%);
+                                            -webkit-clip-path: polygon(96.500% 13.800%, 97.700% 15.900%, 98.600% 18.100%, 99.300% 20.500%, 99.700% 23.000%, 99.900% 25.600%, 99.900% 28.300%, 99.700% 31.100%, 99.500% 34.000%, 99.000% 36.900%, 98.400% 39.900%, 97.700% 42.900%, 96.900% 45.900%, 96.000% 49.000%, 95.100% 52.100%, 94.100% 55.200%, 93.100% 58.200%, 92.100% 61.200%, 91.100% 64.100%, 90.100% 67.000%, 89.100% 69.800%, 88.000% 72.600%, 86.900% 75.300%, 85.700% 77.900%, 84.500% 80.400%, 83.200% 82.800%, 81.800% 85.100%, 80.300% 87.200%, 78.700% 89.200%, 77.000% 91.000%, 75.200% 92.700%, 73.300% 94.200%, 71.200% 95.600%, 69.000% 96.800%, 66.700% 97.800%, 64.300% 98.600%, 61.800% 99.200%, 59.200% 99.700%, 56.500% 100.000%, 53.800% 100.100%, 51.000% 100.100%, 48.200% 99.900%, 45.400% 99.600%, 42.600% 99.100%, 39.800% 98.500%, 37.000% 97.700%, 34.300% 96.800%, 31.700% 95.700%, 29.100% 94.500%, 26.600% 93.100%, 24.200% 91.600%, 21.900% 90.000%, 19.700% 88.300%, 17.600% 86.500%, 15.600% 84.500%, 13.700% 82.400%, 11.900% 80.300%, 10.300% 78.100%, 8.800% 75.800%, 7.400% 73.400%, 6.100% 70.900%, 4.900% 68.400%, 3.800% 65.800%, 2.800% 63.100%, 2.000% 60.400%, 1.300% 57.600%, 0.700% 54.800%, 0.200% 52.000%, -0.100% 49.200%, -0.300% 46.400%, 0.000% 43.300%, 0.100% 40.500%, 0.300% 37.700%, 0.700% 35.000%, 1.200% 32.300%, 1.900% 29.700%, 2.800% 27.200%, 3.800% 24.700%, 5.000% 22.300%, 6.400% 20.000%, 8.000% 17.900%, 9.800% 15.900%, 11.700% 14.000%, 13.800% 12.200%, 16.100% 10.500%, 18.500% 9.000%, 21.000% 7.600%, 23.700% 6.300%, 26.500% 5.100%, 29.400% 4.100%, 32.400% 3.200%, 35.500% 2.400%, 38.700% 1.700%, 41.900% 1.100%, 45.200% 0.600%, 48.500% 0.300%, 51.900% 0.100%, 55.300% 0.000%, 58.700% 0.000%, 62.100% 0.100%, 65.500% 0.300%, 68.800% 0.700%, 72.100% 1.200%, 75.300% 1.800%, 78.400% 2.600%, 81.300% 3.500%, 84.100% 4.500%, 86.700% 5.700%, 89.100% 7.000%, 91.300% 8.500%, 93.300% 10.100%, 95.000% 11.900%, 96.500% 13.800%);
+                                        }
+                                    }
+
+                                    #uc_blob_shapes_elementor_1f1ec80 {
+                                        aspect-ratio: 1 / 1;
+                                        width: 100%;
+                                    }
+
+                                    .ue-blob-text-holder {
+                                        position: absolute;
+                                        top: 0px;
+                                        left: 0px;
+                                        right: 0px;
+                                        bottom: 0px;
+                                        width: 100%;
+                                        height: 100%;
+                                        z-index: 2;
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                    }
+
+                                    .ue_blob_inside {
+                                        position: relative;
+                                    }
+                                </style>
+                                <div id="uc_blob_shapes_elementor_1f1ec80_justification" class="ue-blob-wrapper">
+                                    <div id="uc_blob_shapes_elementor_1f1ec80_size" class="ue_blob_inside">
+                                        <div id="uc_blob_shapes_elementor_1f1ec80" style="background-image:url(images/logo.png)" class="blob"></div>
+                                        <div class="ue-blob-text-holder"></div>
+                                    </div>
+                                </div>
+                                <!-- end Blob Shapes -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-587772f4" data-id="587772f4" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-568e50fb wpr-main-menu-align-center wpr-main-menu-align--tabletleft wpr-main-menu-align--mobileleft wpr-pointer-underline wpr-pointer-line-fx wpr-pointer-fx-fade wpr-sub-icon-caret-down wpr-sub-menu-fx-fade wpr-nav-menu-bp-mobile wpr-mobile-menu-full-width wpr-mobile-menu-item-align-center wpr-mobile-toggle-v1 wpr-sub-divider-yes wpr-mobile-divider-yes elementor-widget elementor-widget-wpr-nav-menu"
+                            data-id="568e50fb" data-element_type="widget" data-settings="{" menu_layout ":"horizontal "}"="" data-widget_type="wpr-nav-menu.default">
+                            <div class="elementor-widget-container">
+                                <nav class="wpr-nav-menu-container wpr-nav-menu-horizontal" data-trigger="hover">
+                                    <ul id="menu-1-568e50fb" class="wpr-nav-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-49">
+                                            <a href="" aria-current="page" class="wpr-menu-item wpr-pointer-item wpr-active-menu-item">Home</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50">
+                                            <a href="#tokenomics" class="wpr-menu-item wpr-pointer-item">Tokenomics</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51">
+                                            <a href="#community" class="wpr-menu-item wpr-pointer-item">Community</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <nav class="wpr-mobile-nav-menu-container">
+                                    <div class="wpr-mobile-toggle-wrap">
+                                        <div class="wpr-mobile-toggle">
+                                            <span class="wpr-mobile-toggle-line"></span>
+                                            <span class="wpr-mobile-toggle-line"></span>
+                                            <span class="wpr-mobile-toggle-line"></span>
+                                        </div>
+                                    </div>
+                                    <ul id="mobile-menu-2-568e50fb" class="wpr-mobile-nav-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-49">
+                                            <a href="" aria-current="page" class="wpr-mobile-menu-item wpr-active-menu-item">Home</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50">
+                                            <a href="#tokenomics" class="wpr-mobile-menu-item">Tokenomics</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51">
+                                            <a href="#community" class="wpr-mobile-menu-item">Community</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-436aa91" data-id="436aa91" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-ad95f27 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button" data-id="ad95f27" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <div class="wpr-button wpr-button-effect elementor-animation-pulse-grow" data-text="Go">
+                                        <span class="wpr-button-content">
+                                                <span class="wpr-button-text"><a href="#"> Buy $DRAGON </a></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-77397cb8 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="77397cb8" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4b5f1949 elementor-hidden-mobile" data-id="4b5f1949" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-ac4038c elementor-widget elementor-widget-heading" data-id="ac4038c" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                    /*! elementor - v3.19.0 - 29-01-2024 */
+
+                                    .elementor-heading-title {
+                                        padding: 0;
+                                        margin: 0;
+                                        line-height: 1
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                        color: inherit;
+                                        font-size: inherit;
+                                        line-height: inherit
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                        font-size: 15px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                        font-size: 19px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                        font-size: 29px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                        font-size: 39px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                        font-size: 59px
+                                    }
+                                </style>
+                                <h2 class="elementor-heading-title elementor-size-default">01</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-2d977444 e-transform elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2d977444" data-element_type="widget" data-settings="{" _transform_rotatez_effect ":{"unit ":"px
+                            ","size ":90,"sizes ":[]},"_transform_rotatez_effect_tablet ":{"unit ":"deg ","size ":" ","sizes ":[]},"_transform_rotatez_effect_mobile ":{"unit ":"deg ","size ":" ","sizes ":[]}}"="" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                    /*! elementor - v3.19.0 - 29-01-2024 */
+
+                                    .elementor-widget-divider {
+                                        --divider-border-style: none;
+                                        --divider-border-width: 1px;
+                                        --divider-color: #0c0d0e;
+                                        --divider-icon-size: 20px;
+                                        --divider-element-spacing: 10px;
+                                        --divider-pattern-height: 24px;
+                                        --divider-pattern-size: 20px;
+                                        --divider-pattern-url: none;
+                                        --divider-pattern-repeat: repeat-x
+                                    }
+
+                                    .elementor-widget-divider .elementor-divider {
+                                        display: flex
+                                    }
+
+                                    .elementor-widget-divider .elementor-divider__text {
+                                        font-size: 15px;
+                                        line-height: 1;
+                                        max-width: 95%
+                                    }
+
+                                    .elementor-widget-divider .elementor-divider__element {
+                                        margin: 0 var(--divider-element-spacing);
+                                        flex-shrink: 0
+                                    }
+
+                                    .elementor-widget-divider .elementor-icon {
+                                        font-size: var(--divider-icon-size)
+                                    }
+
+                                    .elementor-widget-divider .elementor-divider-separator {
+                                        display: flex;
+                                        margin: 0;
+                                        direction: ltr
+                                    }
+
+                                    .elementor-widget-divider--view-line_icon .elementor-divider-separator,
+                                    .elementor-widget-divider--view-line_text .elementor-divider-separator {
+                                        align-items: center
+                                    }
+
+                                    .elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
+                                    .elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
+                                    .elementor-widget-divider--view-line_text .elementor-divider-separator:after,
+                                    .elementor-widget-divider--view-line_text .elementor-divider-separator:before {
+                                        display: block;
+                                        content: "";
+                                        border-block-end: 0;
+                                        flex-grow: 1;
+                                        border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+                                    }
+
+                                    .elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg: first-of-type {
+                                        flex-grow: 0;
+                                        flex-shrink: 100
+                                    }
+
+                                    .elementor-widget-divider--element-align-left .elementor-divider-separator:before {
+                                        content: none
+                                    }
+
+                                    .elementor-widget-divider--element-align-left .elementor-divider__element {
+                                        margin-left: 0
+                                    }
+
+                                    .elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+                                        flex-grow: 0;
+                                        flex-shrink: 100
+                                    }
+
+                                    .elementor-widget-divider--element-align-right .elementor-divider-separator:after {
+                                        content: none
+                                    }
+
+                                    .elementor-widget-divider--element-align-right .elementor-divider__element {
+                                        margin-right: 0
+                                    }
+
+                                    .elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+                                        flex-grow: 0;
+                                        flex-shrink: 100
+                                    }
+
+                                    .elementor-widget-divider--element-align-start .elementor-divider-separator:before {
+                                        content: none
+                                    }
+
+                                    .elementor-widget-divider--element-align-start .elementor-divider__element {
+                                        margin-inline-start: 0
+                                    }
+
+                                    .elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+                                        flex-grow: 0;
+                                        flex-shrink: 100
+                                    }
+
+                                    .elementor-widget-divider--element-align-end .elementor-divider-separator:after {
+                                        content: none
+                                    }
+
+                                    .elementor-widget-divider--element-align-end .elementor-divider__element {
+                                        margin-inline-end: 0
+                                    }
+
+                                    .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+                                        border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+                                    }
+
+                                    .elementor-widget-divider--separator-type-pattern {
+                                        --divider-border-style: none
+                                    }
+
+                                    .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
+                                    .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
+                                    .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
+                                    .elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
+                                        width: 100%;
+                                        min-height: var(--divider-pattern-height);
+                                        -webkit-mask-size: var(--divider-pattern-size) 100%;
+                                        mask-size: var(--divider-pattern-size) 100%;
+                                        -webkit-mask-repeat: var(--divider-pattern-repeat);
+                                        mask-repeat: var(--divider-pattern-repeat);
+                                        background-color: var(--divider-color);
+                                        -webkit-mask-image: var(--divider-pattern-url);
+                                        mask-image: var(--divider-pattern-url)
+                                    }
+
+                                    .elementor-widget-divider--no-spacing {
+                                        --divider-pattern-size: auto
+                                    }
+
+                                    .elementor-widget-divider--bg-round {
+                                        --divider-pattern-repeat: round
+                                    }
+
+                                    .rtl .elementor-widget-divider .elementor-divider__text {
+                                        direction: rtl
+                                    }
+
+                                    .e-con-inner>.elementor-widget-divider,
+                                    .e-con>.elementor-widget-divider {
+                                        width: var(--container-widget-width, 100%);
+                                        --flex-grow: var(--container-widget-flex-grow)
+                                    }
+                                </style>
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-3c594ad9 elementor-widget elementor-widget-heading" data-id="3c594ad9" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">Welcome</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-519b1e1f" data-id="519b1e1f" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-39228557 elementor-widget elementor-widget-heading" data-id="39228557" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">First Dragon on solana</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-6a2a9189 elementor-widget elementor-widget-text-editor" data-id="6a2a9189" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                    /*! elementor - v3.19.0 - 29-01-2024 */
+
+                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                        background-color: #69727d;
+                                        color: #fff
+                                    }
+
+                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                        color: #69727d;
+                                        border: 3px solid;
+                                        background-color: transparent
+                                    }
+
+                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                        margin-top: 8px
+                                    }
+
+                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                        width: 1em;
+                                        height: 1em
+                                    }
+
+                                    .elementor-widget-text-editor .elementor-drop-cap {
+                                        float: left;
+                                        text-align: center;
+                                        line-height: 1;
+                                        font-size: 50px
+                                    }
+
+                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                        display: inline-block
+                                    }
+                                </style>
+                                <p>CA SOLANA: 3o48KQUim282N9LWXcTovFox1AH42sX4GCV1rSLRknvs</p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-d3c96f6 elementor-widget elementor-widget-text-editor" data-id="d3c96f6" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+
+                            </div>
+                        </div>
+                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-5d9e6126 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="5d9e6126" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-575ce4c7" data-id="575ce4c7" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-7288f28a wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button" data-id="7288f28a" data-element_type="widget" data-widget_type="wpr-button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="wpr-button-wrap elementor-clearfix">
+                                                    <a class="wpr-button wpr-button-effect elementor-animation-pulse-grow" data-text="Go" href="https://t.me/dragon_nft" target="_blank">
+                                                            <span class="wpr-button-content">
+                                                                <span class="wpr-button-text">Telegram</span>
+                                                            </span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5bf8d70e" data-id="5bf8d70e" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-4de050d2 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button" data-id="4de050d2" data-element_type="widget" data-widget_type="wpr-button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="wpr-button-wrap elementor-clearfix">
+                                                    <a class="wpr-button wpr-button-effect elementor-animation-pulse-grow" data-text="Go" href="https://twitter.com/" target="_blank">
+                                                            <span class="wpr-button-content">
+                                                                <span class="wpr-button-text">Twitter</span>
+                                                            </span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1f5b205e" data-id="1f5b205e" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-2af06e12 elementor-widget elementor-widget-image" data-id="2af06e12" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                    /*! elementor - v3.19.0 - 29-01-2024 */
+
+                                    .elementor-widget-image {
+                                        text-align: center
+                                    }
+
+                                    .elementor-widget-image a {
+                                        display: inline-block
+                                    }
+
+                                    .elementor-widget-image a img[src$=".svg"] {
+                                        width: 48px
+                                    }
+
+                                    .elementor-widget-image img {
+                                        vertical-align: middle;
+                                        display: inline-block
+                                    }
+                                </style>
+                                <img fetchpriority="high" decoding="async" width="640" height="640" src="images/logo.png" class="attachment-full size-full wp-image-33" alt="" srcset="images/logo.png 640w, images/logo.png 300w, images/logo.png 150w" sizes="(max-width: 640px) 100vw, 640px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-fc4e6ac elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="fc4e6ac" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-505b8cd" data-id="505b8cd" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-8a8aa4f elementor-widget elementor-widget-shortcode" data-id="8a8aa4f" data-element_type="widget" data-widget_type="shortcode.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-shortcode">
+                                    <div class="mcwp-crypto" id="mcwp-67">
+                                        <div class="mcwp-ticker mcwp-same" data-speed="141">
+                                            <div class="cc-ticker cc-white-color" style="background-color: #0a0a0a;">
+                                                <ul class="cc-stats">
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/bitcoin.png" alt="bitcoin">
+                                                            <b>
+                                                                    Bitcoin <span>(BTC)</span>
+                                                                    <span>$ 42,751.00</span>
+                                                                    <span class="mcwpdown">2.18%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/ethereum.png" alt="ethereum">
+                                                            <b>
+                                                                    Ethereum <span>(ETH)</span>
+                                                                    <span>$ 2,331.57</span>
+                                                                    <span class="mcwpup">0.32%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/Tether.png" alt="tether">
+                                                            <b>
+                                                                    Tether <span>(USDT)</span>
+                                                                    <span>$ 0.999196</span>
+                                                                    <span class="mcwpdown">0.07%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/bnb-icon2_2x.png" alt="bnb">
+                                                            <b>
+                                                                    BNB <span>(BNB)</span>
+                                                                    <span>$ 306.20</span>
+                                                                    <span class="mcwpdown">2.13%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/solana.png" alt="solana">
+                                                            <b>
+                                                                    Solana <span>(SOL)</span>
+                                                                    <span>$ 99.84</span>
+                                                                    <span class="mcwpdown">3.61%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/xrp-symbol-white-128.png" alt="xrp">
+                                                            <b>
+                                                                    XRP <span>(XRP)</span>
+                                                                    <span>$ 0.508521</span>
+                                                                    <span class="mcwpdown">5.64%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/usdc.png" alt="usd-coin">
+                                                            <b>
+                                                                    USDC <span>(USDC)</span>
+                                                                    <span>$ 0.999607</span>
+                                                                    <span class="mcwpdown">0.05%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/steth_logo.png" alt="staked-ether">
+                                                            <b>
+                                                                    Lido Staked Ether <span>(STETH)</span>
+                                                                    <span>$ 2,329.40</span>
+                                                                    <span class="mcwpup">0.38%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/cardano.png" alt="cardano">
+                                                            <b>
+                                                                    Cardano <span>(ADA)</span>
+                                                                    <span>$ 0.509477</span>
+                                                                    <span class="mcwpdown">4.8%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/Avalanche_Circle_RedWhite_Trans.png" alt="avalanche-2">
+                                                            <b>
+                                                                    Avalanche <span>(AVAX)</span>
+                                                                    <span>$ 34.91</span>
+                                                                    <span class="mcwpdown">3.76%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/dogecoin.png" alt="dogecoin">
+                                                            <b>
+                                                                    Dogecoin <span>(DOGE)</span>
+                                                                    <span>$ 0.079888</span>
+                                                                    <span class="mcwpdown">2.66%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/polkadot.png" alt="polkadot">
+                                                            <b>
+                                                                    Polkadot <span>(DOT)</span>
+                                                                    <span>$ 6.80</span>
+                                                                    <span class="mcwpdown">3.79%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/chainlink-new-logo.png" alt="chainlink">
+                                                            <b>
+                                                                    Chainlink <span>(LINK)</span>
+                                                                    <span>$ 15.76</span>
+                                                                    <span class="mcwpup">4.36%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/polygon.png" alt="matic-network">
+                                                            <b>
+                                                                    Polygon <span>(MATIC)</span>
+                                                                    <span>$ 0.795537</span>
+                                                                    <span class="mcwpdown">2.61%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/ton_symbol.png" alt="the-open-network">
+                                                            <b>
+                                                                    Toncoin <span>(TON)</span>
+                                                                    <span>$ 2.07</span>
+                                                                    <span class="mcwpdown">2.56%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/wrapped_bitcoin_wbtc.png" alt="wrapped-bitcoin">
+                                                            <b>
+                                                                    Wrapped Bitcoin <span>(WBTC)</span>
+                                                                    <span>$ 42,687.00</span>
+                                                                    <span class="mcwpdown">1.96%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/shiba.png" alt="shiba-inu">
+                                                            <b>
+                                                                    Shiba Inu <span>(SHIB)</span>
+                                                                    <span>$ 0.000009</span>
+                                                                    <span class="mcwpdown">3.12%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/uni.jpg" alt="uniswap">
+                                                            <b>
+                                                                    Uniswap <span>(UNI)</span>
+                                                                    <span>$ 6.22</span>
+                                                                    <span class="mcwpup">0.79%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/bitcoin-cash-circle.png" alt="bitcoin-cash">
+                                                            <b>
+                                                                    Bitcoin Cash <span>(BCH)</span>
+                                                                    <span>$ 236.24</span>
+                                                                    <span class="mcwpdown">2.78%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/Secondary_Symbol.png" alt="injective-protocol">
+                                                            <b>
+                                                                    Injective <span>(INJ)</span>
+                                                                    <span>$ 34.82</span>
+                                                                    <span class="mcwpdown">7.92%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/Optimism.png" alt="optimism">
+                                                            <b>
+                                                                    Optimism <span>(OP)</span>
+                                                                    <span>$ 3.05</span>
+                                                                    <span class="mcwpdown">4.09%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/filecoin.png" alt="filecoin">
+                                                            <b>
+                                                                    Filecoin <span>(FIL)</span>
+                                                                    <span>$ 5.11</span>
+                                                                    <span class="mcwpdown">4.64%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/hbar.png" alt="hedera-hashgraph">
+                                                            <b>
+                                                                    Hedera <span>(HBAR)</span>
+                                                                    <span>$ 0.072675</span>
+                                                                    <span class="mcwpdown">3.16%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/photo_2023-03-29_21.47.00.jpeg" alt="arbitrum">
+                                                            <b>
+                                                                    Arbitrum <span>(ARB)</span>
+                                                                    <span>$ 1.86</span>
+                                                                    <span class="mcwpdown">0.98%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cc-coin">
+                                                        <div>
+                                                            <img decoding="async" src="images/sui_asset.jpeg" alt="sui">
+                                                            <b>
+                                                                    Sui <span>(SUI)</span>
+                                                                    <span>$ 1.52</span>
+                                                                    <span class="mcwpdown">7.31%</span>
+                                                                </b>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-3c93dae5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="3c93dae5" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1552350f" data-id="1552350f" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-56e0c049 elementor-widget elementor-widget-image" data-id="56e0c049" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=3o48KQUim282N9LWXcTovFox1AH42sX4GCV1rSLRknvs&fixed=in" target="_blank">
+                                        <img decoding="async" width="384" height="384" src="images/raydium-ray-7151827-5795481.png" class="attachment-large size-large wp-image-35" alt="" srcset="images/raydium-ray-7151827-5795481.png 384w, wp-content/uploads/2024/01/uniswap-300x300.png 300w, wp-content/uploads/2024/01/uniswap-150x150.png 150w" sizes="(max-width: 384px) 100vw, 384px">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7e85040c" data-id="7e85040c" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-456e5fd1 elementor-widget elementor-widget-image" data-id="456e5fd1" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <a href="https://solscan.io/token/3o48KQUim282N9LWXcTovFox1AH42sX4GCV1rSLRknvs#holders" target="_blank">
+                                        <img decoding="async" width="800" height="800" src="images/Solana_logo.png" class="attachment-large size-large wp-image-36" alt="" srcset="images/Solana_logo.png 1024w, images/Solana_logo.png 300w, wp-content/uploads/2024/01/etherscan-logo-150x150.png 150w, images/Solana_logo.png 768w, images/Solana_logo.png 1536w, images/Solana_logo.png 2048w" sizes="(max-width: 800px) 100vw, 800px">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ff7fa83" data-id="6ff7fa83" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-5d0d9b69 elementor-widget elementor-widget-image" data-id="5d0d9b69" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <a href="https://dexscreener.com/solana/3o48KQUim282N9LWXcTovFox1AH42sX4GCV1rSLRknvs" target="_blank">
+                                        <img loading="lazy" decoding="async" width="512" height="512" src="images/d6hhu7af8olhqeehihxg.webp" class="attachment-large size-large wp-image-16" alt="" srcset="images/d6hhu7af8olhqeehihxg.webp 512w, wp-content/uploads/2024/01/d6hhu7af8olhqeehihxg-300x300.webp 300w, wp-content/uploads/2024/01/d6hhu7af8olhqeehihxg-150x150.webp 150w" sizes="(max-width: 512px) 100vw, 512px">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6f7b8e6" data-id="6f7b8e6" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-3975143 elementor-widget elementor-widget-image" data-id="3975143" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <a href="https://www.dextools.io/app/en/solana/pair-explorer/3o48KQUim282N9LWXcTovFox1AH42sX4GCV1rSLRknvs" target="_blank">
+                                        <img loading="lazy" decoding="async" width="200" height="200" src="images/dextools_logo.png" class="attachment-large size-large wp-image-17" alt="" srcset="images/dextools_logo.png 200w, wp-content/uploads/2024/01/dextools_logo-150x150.png 150w" sizes="(max-width: 200px) 100vw, 200px">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-77021115 elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="77021115" data-element_type="section" id="tokenomics" data-settings="{" background_background ":"classic "}"="">
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4aea247b elementor-hidden-mobile" data-id="4aea247b" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-1c3c2fe9 elementor-widget elementor-widget-heading" data-id="1c3c2fe9" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">02</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-5b8f2693 e-transform elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5b8f2693" data-element_type="widget" data-settings="{" _transform_rotatez_effect ":{"unit ":"px
+                            ","size ":90,"sizes ":[]},"_transform_rotatez_effect_tablet ":{"unit ":"deg ","size ":" ","sizes ":[]},"_transform_rotatez_effect_mobile ":{"unit ":"deg ","size ":" ","sizes ":[]}}"="" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-723df49a elementor-widget elementor-widget-heading" data-id="723df49a" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">Tokenomics</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-60ddb87d" data-id="60ddb87d" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-3ec5eaaa elementor-widget elementor-widget-heading" data-id="3ec5eaaa" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">Tokenomics</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-38ca3e36 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="38ca3e36" data-element_type="widget"
+                            data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-7499a444 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="7499a444" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2a1a8ebd" data-id="2a1a8ebd" data-element_type="column" data-settings="{" background_background ":"classic "}"="">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-55f88f3a elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="55f88f3a" data-element_type="widget" data-widget_type="icon-box.default">
+                                            <div class="elementor-widget-container">
+                                                <link rel="stylesheet" href="css/widget-icon-box.min.css">
+                                                <div class="elementor-icon-box-wrapper">
+                                                    <div class="elementor-icon-box-icon">
+                                                        <span class="elementor-icon elementor-animation-">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-wallet" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M461.2 128H80c-8.84 0-16-7.16-16-16s7.16-16 16-16h384c8.84 0 16-7.16 16-16 0-26.51-21.49-48-48-48H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h397.2c28.02 0 50.8-21.53 50.8-48V176c0-26.47-22.78-48-50.8-48zM416 336c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z"></path>
+                                                                </svg>
+                                                            </span>
+                                                    </div>
+                                                    <div class="elementor-icon-box-content">
+                                                        <h3 class="elementor-icon-box-title">
+                                                            <span>Total Supply					</span>
+                                                        </h3>
+                                                        <p class="elementor-icon-box-description">10,000,000,000 $DRAGON </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5804f1e4" data-id="5804f1e4" data-element_type="column" data-settings="{" background_background ":"classic "}"="">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-172e8881 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="172e8881" data-element_type="widget" data-widget_type="icon-box.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-icon-box-wrapper">
+                                                    <div class="elementor-icon-box-icon">
+                                                        <span class="elementor-icon elementor-animation-">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-exchange-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path>
+                                                                </svg>
+                                                            </span>
+                                                    </div>
+                                                    <div class="elementor-icon-box-content">
+                                                        <h3 class="elementor-icon-box-title">
+                                                            <span>TAX					</span>
+                                                        </h3>
+                                                        <p class="elementor-icon-box-description">$DRAGON is the 0% tax Crypto Token, built on the Solana </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-681186fa" data-id="681186fa" data-element_type="column">
+                    <div class="elementor-widget-wrap"></div>
+                </div>
+            </div>
+        </section>
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-30a7146d elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="30a7146d" data-element_type="section" id="community" data-settings="{" background_background ":"classic "}"="">
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2f6eb924" data-id="2f6eb924" data-element_type="column">
+                    <div class="elementor-widget-wrap"></div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-33ecb415" data-id="33ecb415" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-250c91a elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="250c91a" data-element_type="widget"
+                            data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-1097e286 elementor-widget elementor-widget-heading" data-id="1097e286" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">Join COMMUNITY</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-51d021a elementor-widget elementor-widget-image" data-id="51d021a" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img loading="lazy" decoding="async" width="3475" height="3453" src="images/logo.png" class="attachment-full size-full wp-image-34" alt="" 
+                                    sizes="(max-width: 3475px) 100vw, 3475px">
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-e426232 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e426232" data-element_type="widget"
+                            data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-30b04502 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="30b04502" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-78ed98f6" data-id="78ed98f6" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-3f49d878 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button" data-id="3f49d878" data-element_type="widget" data-widget_type="wpr-button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="wpr-button-wrap elementor-clearfix">
+                                                    <a class="wpr-button wpr-button-effect elementor-animation-pulse-grow" data-text="Go" href="https://t.me/dragon_nft" target="_blank">
+                                                            <span class="wpr-button-content">
+                                                                <span class="wpr-button-text">Telegram</span>
+                                                            </span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-60a6331b" data-id="60a6331b" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-156bef27 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button" data-id="156bef27" data-element_type="widget" data-widget_type="wpr-button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="wpr-button-wrap elementor-clearfix">
+                                                    <a class="wpr-button wpr-button-effect elementor-animation-pulse-grow" data-text="Go" href="https://twitter.com/" target="_blank">
+                                                            <span class="wpr-button-content">
+                                                                <span class="wpr-button-text">Twitter</span>
+                                                            </span>
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- <div class="elementor-element elementor-element-54036ee elementor-widget elementor-widget-text-editor" data-id="54036ee" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>
+                                    Email : <a href="/cdn-cgi/l/email-protection#8beaefe6e2e5cbe7fee5eaf9e5eefcf2eeeaf9a5e9e2f1" target="_blank" rel="noopener"><span class="__cf_email__" data-cfemail="afcecbc2c6c1efc3dac1ceddc1cad8d6cacedd81cdc6d5">[email&#160;protected]</span></a>
+                                </p>
+                            </div>
+                        </div> -->
+                        <div class="elementor-element elementor-element-f46ee94 wpr-stt-btn-align-fixed wpr-stt-btn-align-fixed-right elementor-widget elementor-widget-wpr-back-to-top" data-id="f46ee94" data-element_type="widget" data-widget_type="wpr-back-to-top.default">
+                            <div class="elementor-widget-container">
+                                <div class="wpr-stt-wrapper">
+                                    <div class="wpr-stt-btn" data-settings="{" animation ":"fade ","animationoffset ":0,"animationduration ":200,"fixed ":"fixed ","scrolanim ":800}"="">
+                                        <span class="wpr-stt-icon">
+                                                <svg class="e-font-icon-svg e-fas-chevron-up" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path>
+                                                </svg>
+                                            </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1e4124ef elementor-hidden-mobile" data-id="1e4124ef" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-6e6c325d elementor-widget elementor-widget-heading" data-id="6e6c325d" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">03</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-73c9e999 e-transform elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="73c9e999" data-element_type="widget" data-settings="{" _transform_rotatez_effect ":{"unit ":"px
+                            ","size ":90,"sizes ":[]},"_transform_rotatez_effect_tablet ":{"unit ":"deg ","size ":" ","sizes ":[]},"_transform_rotatez_effect_mobile ":{"unit ":"deg ","size ":" ","sizes ":[]}}"="" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-6b8f2ed2 elementor-widget elementor-widget-heading" data-id="6b8f2ed2" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">Community</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <link rel="stylesheet" id="wpr-button-animations-css-css" href="css/button-animations.min.css" media="all">
+    <link rel="stylesheet" id="wpr-link-animations-css-css" href="css/wpr-link-animations.min.css" media="all">
+    <style id="mcwp-custom-inline-css">
+        #mcwp-67.mcwp-crypto .cc-coin b {
+            color: #ffffff;
+        }
+    </style>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery.dataTables.min.js" id="mcwp-crypto-datatable-js-js"></script>
+    <script src="js/dataTables.responsive.min.js" id="mcwp-crypto-datatable-resp-js"></script>
+    <script id="mcwp-crypto-common-js-extra">
+        var mcwpajax = {
+            "url": "https:\/\/pepeforktwo.com\/wp-content\/plugins\/cryptocurrency-widgets-pack\/",
+            "ajax_url": "https:\/\/pepeforktwo.com\/wp-admin\/admin-ajax.php"
+        };
+    </script>
+    <script src="js/common.js" id="mcwp-crypto-common-js"></script>
+    <script src="js/particles.js" id="wpr-particles-js"></script>
+    <script src="js/jarallax.min.js" id="wpr-jarallax-js"></script>
+    <script src="js/parallax.min.js" id="wpr-parallax-hover-js"></script>
+    <script src="js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
+    <script src="js/premium-wrapper-link.min.js" id="pa-wrapper-link-js"></script>
+    <script src="js/menu.js" id="uc_ac_assets_file_menu_js_7735-js"></script>
+    <script src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+    <script src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+    <script src="js/waypoints.min.js" id="elementor-waypoints-js"></script>
+    <script src="js/core.min.js" id="jquery-ui-core-js"></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close",
+                "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile Portrait",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Landscape",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Portrait",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Landscape",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                }
+            },
+            "version": "3.19.0",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_optimized_assets_loading": true,
+                "e_optimized_css_loading": true,
+                "e_font_icon_svg": true,
+                "additional_custom_breakpoints": true,
+                "e_swiper_latest": true,
+                "hello-theme-header-footer": true,
+                "block_editor_assets_optimize": true,
+                "landing-pages": true,
+                "e_image_loading_optimization": true,
+                "e_global_styleguide": true
+            },
+            "urls": {
+                "assets": "https:\/\/pepeforktwo.com\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description",
+                "hello_header_logo_type": "logo",
+                "hello_header_menu_layout": "horizontal",
+                "hello_footer_logo_type": "logo"
+            },
+            "post": {
+                "id": 6,
+                "title": "%24PORK2.0%20%E2%80%93%20MISSED%20%24PORK%3F%20HERE%20IS%20YOUR%20SECOND%20CHANCE%21",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script src="js/frontend.min.js" id="elementor-frontend-js"></script>
+    <script id="wpr-addons-js-js-extra">
+        var WprConfig = {
+            "ajaxurl": "https:\/\/pepeforktwo.com\/wp-admin\/admin-ajax.php",
+            "resturl": "https:\/\/pepeforktwo.com\/index.php\/wp-json\/wpraddons\/v1",
+            "nonce": "1d00713eb3",
+            "addedToCartText": "was added to cart",
+            "viewCart": "View Cart",
+            "comparePageID": "",
+            "comparePageURL": "https:\/\/pepeforktwo.com\/",
+            "wishlistPageID": "",
+            "wishlistPageURL": "https:\/\/pepeforktwo.com\/",
+            "chooseQuantityText": "Please select the required number of items.",
+            "site_key": "",
+            "is_admin": "",
+            "input_empty": "Please fill out this field",
+            "select_empty": "Nothing selected",
+            "file_empty": "Please upload a file",
+            "recaptcha_error": "Recaptcha Error"
+        };
+    </script>
+    <script data-cfasync="false" src="js/frontend.min_1.js" id="wpr-addons-js-js"></script>
+    <script src="js/modal-popups.min.js" id="wpr-modal-popups-js-js"></script>
+    <!--   Unlimited Elements 1.5.94 Scripts -->
+    <script type="text/javascript" id="unlimited-elements-scripts">
+        /* Fullscreen Menu scripts: */
+
+        jQuery(document).ready(function() {
+
+            var objWidget = jQuery("#uc_fullscreen_navigation_menu_elementor_66b8498");
+            var objCheckbox = objWidget.find(".checkbox-toggle");
+            var objInputWrapper = objWidget.find(".ue-input-wrapper-align");
+
+            var menuOpenedClass = "menu-opened";
+
+            if (objCheckbox.is(":checked"))
+                objCheckbox.removeAttr("checked");
+
+            objCheckbox.prop('checked', false);
+            objWidget.removeClass(menuOpenedClass);
+
+            var objLinks = jQuery("#uc_fullscreen_navigation_menu_elementor_66b8498 .uc-list-menu a");
+            var objBody = jQuery("body.elementor-page");
+            var objHTML = jQuery("html");
+
+            objWidget.delegate(".checkbox-toggle", "click", function() {
+
+                if (objCheckbox.is(":checked")) {
+                    objBody.addClass(menuOpenedClass);
+                    objHTML.addClass(menuOpenedClass);
+                    objWidget.addClass(menuOpenedClass);
+                    objMenu.collapseAll();
+
+                } else {
+                    objBody.removeClass(menuOpenedClass);
+                    objHTML.removeClass(menuOpenedClass);
+                    objWidget.removeClass(menuOpenedClass);
+                }
+            });
+
+            function toggleIcon(objLink) {
+
+                var isLinkOpened = objLink.hasClass('expanded');
+                var objLinkContainer = objLink.find('.uc-menu-item-pointer');
+
+                var objMenu = jQuery("#uc_fullscreen_navigation_menu_elementor_66b8498");
+
+                var objExpandIcon = objMenu.find(".ue_inner_menu_expand_icon").html();
+                var objCollapseIcon = objMenu.find(".ue_inner_menu_collapse_icon").html();
+
+                if (isLinkOpened == true)
+                    objLinkContainer.html(objCollapseIcon);
+
+                if (isLinkOpened == false)
+                    objLinkContainer.html(objExpandIcon);
+
+            }
+
+            jQuery(window).on("keydown", function(e) {
+                if (e.key == "Escape") {
+                    if (objCheckbox.is(":checked"))
+                        objCheckbox.removeAttr("checked");
+
+                    objCheckbox.prop('checked', false);
+                    objWidget.removeClass(menuOpenedClass);
+
+                    objHTML.removeClass(menuOpenedClass);
+                }
+            });
+
+            //imitate top position of the close icon
+
+            if (typeof UCAccordionMenu == "undefined") {
+                console.log("fullscreen menu error: the fullscreen file: menu.js in ac_assets folder is missing or empty, please check");
+            }
+
+            var objMenu = new UCAccordionMenu("uc_fullscreen_navigation_menu_elementor_66b8498 .ue_inner_menu");
+            objMenu.runMenu();
+
+            objLinks.click(function(e) {
+
+                var objLink = jQuery(this);
+
+                toggleIcon(objLink);
+
+                var url = objLink.attr("href");
+                url = jQuery.trim(url);
+
+                if (!url)
+                    return (true);
+
+                var objLinkParent = objLink.parent();
+                var isClickable = jQuery("#uc_fullscreen_navigation_menu_elementor_66b8498 .ue_inner_menu").data('clickable');
+
+                function goToItem() {
+
+                    if (objCheckbox.is(":checked"))
+                        objCheckbox.removeAttr("checked");
+
+                    objCheckbox.prop('checked', false);
+                    objWidget.removeClass(menuOpenedClass);
+
+                    objBody.removeClass(menuOpenedClass);
+                    objHTML.removeClass(menuOpenedClass);
+                }
+
+                var expandCollapsed = jQuery('.uc-menu-item-pointer');
+                var target = e.target
+
+                if (target == expandCollapsed[0]) {
+                    return (true);
+                }
+
+                if (isClickable == false) {
+
+                    if (objLinkParent.hasClass('menu-item-has-children')) {
+                        return (true)
+                    } else {
+                        goToItem();
+                    }
+
+                } else {
+                    goToItem();
+                }
+
+                return (true);
+            });
+
+            objLinks.each(function() {
+                objLink = jQuery(this);
+                toggleIcon(objLink);
+            });
+
+        });
+    </script>
+
+
+
+</body>
+
+</html>
